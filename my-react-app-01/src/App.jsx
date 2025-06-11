@@ -9,12 +9,14 @@ import List from "./components/List";
 import List2 from "./components/List2";
 import Button2 from "./components/Button/Button2";
 import ProfilePicture from "./components/ProfilePicture";
+import MyComponent from "./components/MyComponent";
+import Counter from "./components/Counter";
 
 function App() {
 
   return (
-    <div className="m-5">
-      <ProfilePicture></ProfilePicture>
+    <div>
+      <Counter></Counter>
     </div>
   );
 }
