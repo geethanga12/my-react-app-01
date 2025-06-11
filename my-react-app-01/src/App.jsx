@@ -6,6 +6,7 @@ import Button from "./components/Button/Button";
 import Students from "./components/Students";
 import UserGreeting from "./components/UserGreeting";
 import List from "./components/List";
+import List2 from "./components/List2";
 
 function App() {
   const fruits = [
@@ -65,9 +66,9 @@ function App() {
   ];
 
   return (
-    <div>
-      <List items={fruits} category="Fruits" />
-      <List items={vegs} category="Vegetables"></List>
+    <div className="border-2 border-black m-2 flex flex-col gap-5 justify-center items-center h-[500px]">
+      <List2 list={fruits} name="MY FRUITS - GEETH Co"></List2>
+      <List2 list={vegs} name="MY VEGETABLES - GEETH Co"></List2>
     </div>
   );
 }
