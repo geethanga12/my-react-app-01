@@ -11,12 +11,14 @@ import Button2 from "./components/Button/Button2";
 import ProfilePicture from "./components/ProfilePicture";
 import MyComponent from "./components/MyComponent";
 import Counter from "./components/Counter";
+import MyComponent2 from "./components/MyComponent2";
+import OnChange from "./components/OnChange";
 
 function App() {
 
   return (
     <div>
-      <Counter></Counter>
+      <OnChange></OnChange>
     </div>
   );
 }
