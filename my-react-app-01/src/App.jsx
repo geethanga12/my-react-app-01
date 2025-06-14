@@ -13,12 +13,13 @@ import MyComponent from "./components/MyComponent";
 import Counter from "./components/Counter";
 import MyComponent2 from "./components/MyComponent2";
 import OnChange from "./components/OnChange";
+import ColorPicker from "./components/ColorPicker";
 
 function App() {
 
   return (
     <div>
-      <OnChange></OnChange>
+      <ColorPicker></ColorPicker>
     </div>
   );
 }
